@@ -1,0 +1,204 @@
+{
+    "ghosts": [
+        {
+            "ghost_id": 1,
+            "ghost_type": "Banshee",
+            "evidences": [
+                1,
+                3,
+                5
+            ],
+            "behaviors": "Unlike other ghosts, who will often change their selected target between Hunts, Banshees will always target the same player every time it hunts until it successfully kills them. While this means other players are safe from the Banshee's power so long as its target is alive, it makes carrying out objectives by the targeted player more difficult.",
+            "strengths": "A Banshee will focus on one player at a time until it kills them.",
+            "weaknesses": "Banshees fear the Crucifix, which boosts the Hunt-stopping range of one from 3 meters to 5 meters against it.",
+            "power": "Once a banshee uses its power, it will begin to navigate to its chosen target. Line-of-sight blockers and hiding have no effect on the Banshee's ability to navigate to the player, and it will be able to reach them. After reaching the player, it will wait ~20 seconds, then proceed to begin a hunt if the player is not within direct line-of-sight of the Banshee.\n\nThe Banshee will cancel its ability if its target is not in the building.\n\nA Banshee's power is particularly dangerous, as it is capable of hunting players that are very far away from the ghost room who think they are safe, even on the largest of maps. A Banshee that uses its power to hunt before the ghost room is located can also trick players into thinking the ghost room is close, as they hear the ghost nearby, when in reality the Banshee has just walked from a different location of the map to the player.\n\nThe Banshee's power ignores sanity and typical hunting rules, meaning it can potentially begin a hunt with its power within moments of the hunters entering the location on Professional or Intermediate difficulties. A hunt beginning very early on while all players have high sanity could be a sign of a banshee using its power."
+        },
+        {
+            "ghost_id": 2,
+            "ghost_type": "Demon",
+            "evidences": [
+                2,
+                4,
+                5
+            ],
+            "behaviors": "It is generally the most dangerous type of to encounter; noted for being highly aggressive, it will attack more often than any other ghost, and usually without warning. Demons at their most aggressive will hunt in intervals as short as half-minutes, forcing the players to spend more total time hiding than investigating.",
+            "strengths": "Demons will attack more often than any other ghost.",
+            "weaknesses": "Asking a Demon successful questions on the Ouija Board won't lower the users' sanity."
+        },
+        {
+            "ghost_id": 3,
+            "ghost_type": "Jinn",
+            "evidences": [
+                1,
+                4,
+                6
+            ],
+            "behaviors": "It is a territorial ghost that will attack when threatened. It has also been known to travel at significant speed during Hunts.\n\nJinns tend to interact with electronics more than any other ghost. They may cause phones to ring, radios to activate, TV's to turn on, or car alarms to go off more often. This also extends to light switches, which may cause unsure investigators to confuse a Jinn for a Mare or Poltergeist; although Mares also have the power to turn lights off, they will not turn lights back on as Jinn do, and Poltergeists will likely disturb more general objects that aren't light switches such as doors.",
+            "strengths": "A Jinn will travel at a faster speed if its victim is far away.",
+            "weaknesses": "Turning off the location's power source will prevent the Jinn from using its ability."
+        },
+        {
+            "ghost_id": 4,
+            "ghost_type": "Mare",
+            "evidences": [
+                4,
+                5,
+                6
+            ],
+            "behaviors": "Mares have a higher chance of initiating hunts when players are in darkness. Mares tend to turn lights and the fuse box off more than any other ghost type when active, although if a ghost switches lights back on, it is much more likely to be a Poltergeist or Jinn. An active Mare stalking low-sanity players have the capacity to initiate hunts within mere moments of each other, allowing them to rival even Demons in aggression.",
+            "strengths": "Increased chance to attack in the dark. As such, it will do what it can to achieve this, such as turning off lights and tripping the fuse box.",
+            "weaknesses": "Turning the lights on will lower its chance to attack."
+        },
+        {
+            "ghost_id": 5,
+            "ghost_type": "Oni",
+            "evidences": [
+                1,
+                2,
+                4
+            ],
+            "behaviors": "It is a cousin to the Demon, and as such, is much more active and aggressive when players are grouped together, with a higher chance to initiate hunts. This can make players confuse it with a Demon provided they continue to remain close together the entire mission and never separating. However, this power also works against it; it is one of the most active ghosts in the game, and will more readily give up evidence to a group of investigators, which can make for generous and swift investigations if an Oni is quick to reveal the necessary evidence.\n\nThe Oni is also described as being extremely strong, and it will throw objects around the room with great force when interacting with them. However, these projectiles are not dangerous to the hunters or their sanity unlike those thrown by Poltergeists.",
+            "strengths": "Oni are more active when people are nearby and have been seen moving objects at great speed.",
+            "weaknesses": "Being more active will make the Oni easier to find and identify."
+        },
+        {
+            "ghost_id": 6,
+            "ghost_type": "Phantom",
+            "evidences": [
+                1,
+                5,
+                6
+            ],
+            "behaviors": "Phantoms will drop a player's Sanity significantly whenever it is seen manifesting or hunting; be mindful if you or one of your teammates are frequently seeing the ghost, as their Sanity will likely be quite low.\n\nAs players are rarely, if ever, seen without gear, and Phantoms have been known to simply walk or stand in place, it is quite easy to tell the Phantom from a regular player. If you suspect you might have a Phantom on your hands when playing in a team, intentionally avoid having your hands empty so it is easier to tell a Phantom from a player.",
+            "strengths": "Looking at a Phantom will considerably drop your Sanity. This refers to any visible manifestations of the Phantom, including during a Hunt.",
+            "weaknesses": "Taking a photo of the Phantom will make it temporarily disappear. The Photo Camera will make it disappear, but it will not stop a Hunt.",
+            "power": "When the Phantom manifests, it can take on the appearance of one of your teammates, not excluding the appearance of the viewer, as can be seen here. The appearance can change with each time the ghost vanishes and returns to view. This can cause a dangerous unnoticed Sanity drop if the viewer does not realize they are not actually looking at a teammate.\n\nIt is unknown if this is an intentional gameplay mechanic, merely a bug, or if this is even still in the game. As such, more evidence is needed."
+        },
+        {
+            "ghost_id": 7,
+            "ghost_type": "Poltergeist",
+            "evidences": [
+                3,
+                4,
+                6
+            ],
+            "behaviors": "A Poltergeist's ability to manipulate objects, specifically doors, can make it easier to identify. However, if the ghost is one that specifically affects multiple light fixtures and other electronics at once, it's more likely to be a Jinn.\n\nUnlike other ghosts, objects thrown by Poltergeists have the ability to decrease player sanity if they were not looking at the objects being thrown. This can also help to identify the ghost; if a player notices a dip in their sanity after they hear physical disturbances in nearby rooms, they can guess it is likely a Poltergeist they are facing.\n\nAn unwritten quirk of the Poltergeist is that they have the greatest capacity to roam from their Ghost Room, going far to move objects away from its space. In larger maps, this can result in red herrings when looking for Ghost Activity and cause players to waste time searching areas that ultimately do not house the Poltergeist.",
+            "strengths": "A Poltergeist is capable of influencing more objects at once than any other Ghosts, and is capable of shutting multiple doors at once.",
+            "weaknesses": "A Poltergeist is almost ineffective in an empty room."
+        },
+        {
+            "ghost_id": 8,
+            "ghost_type": "Revenant",
+            "evidences": [
+                1,
+                2,
+                3
+            ],
+            "behaviors": "It is a slow, but violent ghost that will attack indiscriminately. It is said to travel at higher speeds when hunting.\n\nUnlike other Ghosts, who will often have a specific target selected when starting a Hunt they will hone in on, Revenants can freely switch targets if there is another player that is closer by - and especially one that is in plain view and available, making its goal of killing players more convenient.",
+            "strengths": "A Revenant will travel at a significantly faster speed when hunting a victim. Additionally, the Revenant can freely switch whoever it is targeting during a Hunt.",
+            "weaknesses": "Hiding from the Revenant will cause it to move very slowly."
+        },
+        {
+            "ghost_id": 9,
+            "ghost_type": "Shade",
+            "evidences": [
+                1,
+                2,
+                6
+            ],
+            "behaviors": "Noted as being shy ghosts, Shades lower their activity in the presence of multiple investigators. Because of its temperament, it can be harder to find ghost activity when sticking together. However, like all ghosts in the game, the Shade is more likely to hunt when the players' sanity is low.\n\nIf a Shade is already hunting, it will prefer to target players that are alone. For it to consider a player alone, the other players have to be in a separate room, though they do not have to be far away.",
+            "strengths": "As a shy ghost, a Shade will rarely perform actions in the presence of two or more people, making it harder to detect.",
+            "weaknesses": "Conversely, a Shade will rarely start a Hunt when players are grouped together."
+        },
+        {
+            "ghost_id": 10,
+            "ghost_type": "Spirit",
+            "evidences": [
+                2,
+                3,
+                4
+            ],
+            "behaviors": "With no special powers and a harsher reaction to Smudge Sticks, Spirits serve as a baseline to measure other Ghosts against. In the absence of evidence, it is very difficult to distinguish a Spirit from any other given ghost type.",
+            "strengths": "None. The Spirit has no unique powers, making it easier to survive but harder to identify.",
+            "weaknesses": "Using Smudge Sticks on a Spirit will stop it attacking for twice as long as other Ghosts."
+        },
+        {
+            "ghost_id": 11,
+            "ghost_type": "Wraith",
+            "evidences": [
+                3,
+                4,
+                5
+            ],
+            "behaviors": "It is best known for being able to 'fly', causing it to not produce footsteps when moving (you might still hear footsteps it's not 100% sure that there won't be some), and most dangerously can see through doors, closets, and lockers when Hunting players, demanding either more creative hiding spots or very fast feet.",
+            "strengths": "Wraiths almost never touch the ground, meaning it can't be tracked by footsteps. It can travel through walls and doors without opening them, and will not leave footprints on the ground.",
+            "weaknesses": "Wraiths have a toxic reaction to Salt. If a Wraith comes into contact with a pile of salt, it will immediately cease attacking.",
+            "power":"The Wraith's power is that it will teleport onto a random player in the Ghost Room, and will emit an interaction EMF."
+        },
+        {
+            "ghost_id": 12,
+            "ghost_type": "Yurei",
+            "evidences": [
+                2,
+                5,
+                6
+            ],
+            "behaviors": "Although it does not have any implicit bonuses to its ability to Hunt, its main draw is its constant attack on the hunters' Sanity; if hunters are careless for their Sanity, it will become aggressive very quickly.",
+            "strengths": "Yurei have been known to have a stronger effect on people's Sanity.",
+            "weaknesses": "Using Smudge Sticks on the Yurei's room will cause it to not wander around the location for a long time."
+        }
+    ],
+    "ghost_evidences": [
+        {
+            "evidence_id": 1,
+            "evidence_name": "EMF Level 5",
+            "tools": [
+                "EMF Reader"
+            ],
+            "description": "This evidence is found when the EMF Reader shows level 5."
+        },
+        {
+            "evidence_id": 2,
+            "evidence_name": "Ghost Writing",
+            "tools": [
+                "Ghost Writing Book"
+            ],
+            "description": "This evidence is found when writing is found in the Ghost Writing Book."
+        },
+        {
+            "evidence_id": 3,
+            "evidence_name": "Fingerprints",
+            "tools": [
+                "UV Light",
+                "Glowstick"
+            ],
+            "description": "This evidence is found by shining the UV Light or Glowstick on doors, light switches, or windows."
+        },
+        {
+            "evidence_id": 4,
+            "evidence_name": "Spirit Box",
+            "tools": [
+                "Spirit Box"
+            ],
+            "description": "This evidence is found by receiving a response after asking questions to the Spirit Box in a dark room."
+        },
+        {
+            "evidence_id": 5,
+            "evidence_name": "Freezing Temperatures",
+            "tools": [
+                "Thermometer",
+                "Visual Indicator"
+            ],
+            "description": "This evidence is found when the Thermometer reads below 0°C/32°F or your breath is seen."
+        },
+        {
+            "evidence_id": 6,
+            "evidence_name": "Ghost Orb",
+            "tools": [
+                "Video Camera",
+                "Head Mounted Camera"
+            ],
+            "description": "This evidence is found when floating orbs are seen with night vision on the van's computer screen."
+        }
+    ]
+}
